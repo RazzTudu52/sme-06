@@ -5,6 +5,7 @@
   height: 25rem;
   width: 100vw;
 }
+
 .footer-Wrape {
   height: 100%;
   width: 100%;
@@ -21,12 +22,14 @@
   /* border: 2px solid black; */
   font-family: "Poppins", sans-serif;
 }
+
 .footer-Wrape h4 {
   margin: 2rem auto 1.7rem;
   font-size: 14px;
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
+
 .footer-Wrape .icon {
   display: flex;
   justify-content: center;
@@ -52,9 +55,11 @@
   background-color: #8fc04e;
   cursor: pointer;
 } 
+
 .footer-Wrape .icon picture:hover::after{
   background-color: rgb(208, 208, 208);
 }
+
 .copyright {
   height: 7rem;
   border-top: 2px solid rgb(122, 122, 122);
@@ -67,6 +72,7 @@
   align-items: center;
   margin-top: auto;
 }
+
 .copyright h3 {
   font-size: 14px;
   color: #fff;
@@ -95,4 +101,5 @@
   .copyright h5 {
     font-size: 10px;
   }
+
 }

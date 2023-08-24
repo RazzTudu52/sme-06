@@ -17,7 +17,7 @@ const NavPage = () => {
                     <div className={showIcon ? "nav-links nav-X" : "nav-links nav-Y"}>
                         <ul className='navUl'>
                             <li className='navLi'>
-                                    <NavLink className="navlink" to="/index" onClick={() => setShowIcon(true)}>Home Page</NavLink>
+                                    <NavLink className="navlink" to="/" onClick={() => setShowIcon(true)}>Home Page</NavLink>
                             </li>
                             <li className='navLi'>
                                  <NavLink className="navlink" to="/batch2020" onClick={() => setShowIcon(true)}>SESSION 20-21</NavLink>
