@@ -97,7 +97,7 @@ const Team01Data=[
     facebook:"https://www.facebook.com/profile.php?id=100005284422594",
     insta:"https://www.instagram.com/sharma.anubhaw/?hl=en",
     linkdin:"https://www.linkedin.com/in/anubhaw19/",
-  },
+  }
 
 ]
 

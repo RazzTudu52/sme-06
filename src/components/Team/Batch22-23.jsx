@@ -1,21 +1,25 @@
 import React, { useState } from 'react'
-import CoordinatorsData from './CoordinatorsData';
+import Batch22_23 from './Batch22-23Data'
 import './Team.css';
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
-const  Coordinator =  () => {
-  const [item] = useState( CoordinatorsData);
+const Batch22 = () => {
+  const [item] = useState(Batch22_23);
   return (
     <>
       <section>
-        {/* <div className="team-text  gallary-heading">
-          <h1><span className='headSpsn'>Our</span>Student Coordinators</h1>
-        </div> */}
+        <div className='team-section' id='team'>
+
+        <div className="team-text">
+          <h3 className='headLine01'>TEAM</h3>
+          <h3 className='headLine01'>SESSION 22-23</h3>
+          <h1 className='headLine02'>Our<span className='headSpsn'> Office-Bearers</span></h1>
+        </div>
         <div className="team-mambers">
 
           {
-            item.map((data) => {
+            item.map((data, i) => {
               const { id, name, designation, image, facebook, insta, linkdin } = data;
               return (
 
@@ -25,10 +29,9 @@ const  Coordinator =  () => {
                     <img src={image} alt={id} />
                     <div className="social">
 
-                      <a href={facebook}><FaFacebookF /></a>
-                      <a href={insta}><FaInstagram /></a>
-                      <a href={linkdin}><BsLinkedin /></a>
-
+                    <a href={facebook} title="face" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+                      <a href={insta} title="insta" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                      <a href={linkdin} title="linkdin" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
                     </div>
                   </div>
                   <div className="mamber-info">
@@ -44,9 +47,10 @@ const  Coordinator =  () => {
 
 
         </div>
+        </div>
       </section>
     </>
   )
 }
 
-export default Coordinator;
+export default Batch22;

@@ -5,7 +5,7 @@ import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Event from "./components/Event/Event.jsx";
 import Gallary from "./components/Gallary/Gallary.jsx";
-import Team02 from "./components/Team/Team02.jsx";
+import Batch22 from "./components/Team/Batch22-23.jsx";
 import Slider from "./components/Slide/Slider.jsx";
 import Faq from "./components/Faq/Faq";
 import Footer from "./components/Footer/Footer.jsx";
@@ -21,7 +21,7 @@ function Page(){
       <Event /> 
       <Gallary />
       <Slider />
-      <Team02 /> 
+      <Batch22 /> 
       <Faq />
       <Contact />
       <Footer />
