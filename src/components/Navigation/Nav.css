@@ -46,6 +46,9 @@
    text-decoration: none;
    color: #fff;
 }
+.coordinator{
+    margin-bottom: 2rem;
+}
 @media screen and (max-width: 600px) {
   .navBar .contact01 .icons{
       display: none;
@@ -60,6 +63,9 @@
   nav picture img {
     width: 2rem;
   }
+  nav picture img .smelogo{
+     transform: translateY(2px);
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -71,6 +77,9 @@
      nav picture img {
       width: 2rem;
     }
+    nav picture img .smelogo{
+      transform: translateY(2px);
+   }
 
 }
 
@@ -135,6 +144,10 @@ nav{
 nav picture img{
     width: 8rem;
 }
+nav picture .smelogo{
+    width: 6rem;
+    transform: translateY(-1rem);
+}
 
 .navLi{
    color: aliceblue;
@@ -143,7 +156,7 @@ nav picture img{
    /* gap: 2rem; */
 }
 .navLi .navlink{
-    margin: 0 1rem;
+   margin: 0 1rem;
    cursor: pointer;
    color: aliceblue;
    text-decoration: none;
@@ -151,7 +164,12 @@ nav picture img{
    text-decoration: none;
    color: #fff;
 }
-
+.homePage{
+  color: aliceblue !important;
+}
+.homePage:hover{
+  color: #8FC04E !important;
+}
 .navLi .navlink:hover{
    color: #8FC04E;
    text-decoration: none;

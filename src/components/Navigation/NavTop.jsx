@@ -8,7 +8,7 @@ import { FiMail } from "react-icons/fi";
 export const NavTop = () => {
     return (
         <>
-            <div className='navBar'>
+            <div className='navBar' id="hero" >
                 <div className="contact01">
                     <span>
                         <h4 className='fiMail'><FiMail /></h4>

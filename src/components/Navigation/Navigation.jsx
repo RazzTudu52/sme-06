@@ -37,7 +37,7 @@ const Navigation = () => {
                     <div className="nav-img">
                         <picture>
                             <img src='/assets/bitlogo.png' alt="Logo" className="bitlogo" />
-                            <img src='/assets/Smelogo.png' alt="smelogo" />
+                            <img src='/assets/Smelogo.png' alt="smelogo" className="smelogo"/>
                         </picture>
                     </div>
 
@@ -66,6 +66,7 @@ const Navigation = () => {
                                  showTeam ? '':
                              
                                 <ul className="batchNav" >
+                                      <li className="batchLi"><a href="batch2022" onClick={() => close()}>BATCH 2022</a></li>
                                       <li className="batchLi"><a href="batch2021"  onClick={() => close()}>BATCH 2021</a></li>
                                       <li className="batchLi"><a href="batch2020" onClick={() => close()}>BATCH 2020</a></li>
                                 </ul>

@@ -4,7 +4,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <section className="home" id="hero"  style={{background:"linear-gradient(var(--transBlack), var(--transBlack)),url(/assets/minesafety.jpg) no-repeat fixed bottom center / cover"}}>
+      <section className="home" style={{background:"linear-gradient(var(--transBlack), var(--transBlack)),url(/assets/minesafety.jpg) no-repeat fixed bottom center / cover"}}>
         <div className="home-text" >
           <h1 className="primary-color" data-aos="fade-up">SME -BIT SINDRI</h1>
           <h1 data-aos="fade-up" data-aos-once='true'>STUDENTS' CHAPTER</h1>

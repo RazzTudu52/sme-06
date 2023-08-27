@@ -17,13 +17,16 @@ const NavPage = () => {
                     <div className={showIcon ? "nav-links nav-X" : "nav-links nav-Y"}>
                         <ul className='navUl'>
                             <li className='navLi'>
-                                    <NavLink className="navlink" to="/" onClick={() => setShowIcon(true)}>Home Page</NavLink>
+                                    <NavLink className="navlink homePage" to="/" onClick={() => setShowIcon(true)}>Home Page</NavLink>
                             </li>
                             <li className='navLi'>
                                  <NavLink className="navlink" to="/batch2020" onClick={() => setShowIcon(true)}>SESSION 20-21</NavLink>
-                            </li>
+                            </li> 
                             <li className="navLi">
                                  <NavLink className="navlink" to="/batch2021" onClick={() => setShowIcon(true)}>SESSION 21-22</NavLink>
+                            </li>
+                             <li className="navLi">
+                                 <NavLink className="navlink" to="/batch2022" onClick={() => setShowIcon(true)}>SESSION 22-23</NavLink>
                             </li>
 
                         </ul>
