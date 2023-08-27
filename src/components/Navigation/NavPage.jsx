@@ -20,13 +20,13 @@ const NavPage = () => {
                                     <NavLink className="navlink homePage" to="/" onClick={() => setShowIcon(true)}>Home Page</NavLink>
                             </li>
                             <li className='navLi'>
-                                 <NavLink className="navlink" to="/batch2020" onClick={() => setShowIcon(true)}>SESSION 20-21</NavLink>
+                                 <NavLink className="navlink" to="/batch2020" onClick={() => setShowIcon(true)}>Session 20-21</NavLink>
                             </li> 
                             <li className="navLi">
-                                 <NavLink className="navlink" to="/batch2021" onClick={() => setShowIcon(true)}>SESSION 21-22</NavLink>
+                                 <NavLink className="navlink" to="/batch2021" onClick={() => setShowIcon(true)}>Session 21-22</NavLink>
                             </li>
                              <li className="navLi">
-                                 <NavLink className="navlink" to="/batch2022" onClick={() => setShowIcon(true)}>SESSION 22-23</NavLink>
+                                 <NavLink className="navlink" to="/batch2022" onClick={() => setShowIcon(true)}>Session 22-23</NavLink>
                             </li>
 
                         </ul>
