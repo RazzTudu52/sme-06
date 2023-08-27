@@ -1,15 +1,15 @@
 const Testimonials = [
   {
     id: '1',
-    image: "assets/tastmonial/dksingh.png",
-    name: "Dr. D.K. Singh",
+    image: "assets/tastmonial/pankajRai.png",
+    name: "Prof .Pankaj Rai",
     // G:\sme\sampal\sme-prac\public\assets/tastmonial\dksingh.png
     title: "Director, B.I.T Sindri",
   },
   {
     id: '2',
-    image: "assets/tastmonial/ukdey.png",
-    name: "Prof. Dr. U.K. Dey",
+    image: "assets/tastmonial/pKSingh.png",
+    name: "Prof. P.K. Singh",
     title: "HOD, Mining Engineering Department",
   },
   {
