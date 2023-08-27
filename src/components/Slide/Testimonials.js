@@ -2,7 +2,7 @@ const Testimonials = [
   {
     id: '1',
     image: "assets/tastmonial/pankajRai.png",
-    name: "Prof .Pankaj Rai",
+    name: "Prof. Pankaj Rai",
     // G:\sme\sampal\sme-prac\public\assets/tastmonial\dksingh.png
     title: "Director, B.I.T Sindri",
   },

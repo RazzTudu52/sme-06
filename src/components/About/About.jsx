@@ -23,8 +23,8 @@ const About = () => {
             <aside data-aos="fade-up" data-aos-once='true'>
                 <h4 className='aboutUS'>ABOUT US</h4>
                 <h1 className='aboutUS2'><b>SME-BIT Sindri Students' Chapter</b></h1>
-                <h1 className='heading'>The<span>Society for Mining, Metallurgy &#38; Exploration</span> (SME)</h1>
-                <article>a member society of the American Institute of Mining, Metallurgical, and Petroleum Engineers, Inc.
+                <h1 className='heading'>The <span>Society for Mining, Metallurgy &#38; Exploration</span> (SME)</h1>
+                <article>A member society of the American Institute of Mining, Metallurgical, and Petroleum Engineers, Inc.
                     (AIME).
                     In principle and in practice, SME and all its leadership value and seek diverse and inclusive
                     participation within the <span>MINING</span> &#38; <span>MINERALS</span> community. SME promotes involvement and expanded access to

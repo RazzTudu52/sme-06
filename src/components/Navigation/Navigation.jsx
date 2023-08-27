@@ -66,9 +66,9 @@ const Navigation = () => {
                                  showTeam ? '':
                              
                                 <ul className="batchNav" >
-                                      <li className="batchLi"><a href="batch2022" onClick={() => close()}>BATCH 2022</a></li>
-                                      <li className="batchLi"><a href="batch2021"  onClick={() => close()}>BATCH 2021</a></li>
-                                      <li className="batchLi"><a href="batch2020" onClick={() => close()}>BATCH 2020</a></li>
+                                      <li className="batchLi"><a href="batch2022" onClick={() => close()}>Session 2022</a></li>
+                                      <li className="batchLi"><a href="batch2021"  onClick={() => close()}>Session 2021</a></li>
+                                      <li className="batchLi"><a href="batch2020" onClick={() => close()}>Session 2020</a></li>
                                 </ul>
                                }   
                                </h4> 

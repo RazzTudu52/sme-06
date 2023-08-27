@@ -205,8 +205,8 @@ const Coordinator22 =[
     designation:"COORDINATOR",
     image:"assets/team22/divyaKachhap.png",
     facebook:"https://www.facebook.com/divya.kachhap.376?mibextid=ZbWKwL",
-    insta:"https://instagram.com/__aparna__i?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
-    linkdin:"https://www.linkedin.com/in/seema-minj-6b65971b1",
+    insta:"https://instagram.com/divya.kachhap.376?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+    linkdin:"https://www.linkedin.com/in/divya-kachhap-b36451246",
   },
 
   {
