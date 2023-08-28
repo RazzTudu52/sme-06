@@ -1,12 +1,12 @@
 const Batch22_23  =[
     {        
       id: 0,
-      name:"Mantosh Kumar",
+      name:"Abhishek Gope" ,
       designation:"President",
-      image:"assets/team22/kumarMantosh.png",
-      facebook:"https://www.facebook.com/profile.php?id=100009327666742&mibextid=ZbWKwL",
-      insta:"https://www.instagram.com/man20sh/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
-      linkdin:"https://www.linkedin.com/in/mantosh-kumar-29233b152/",
+      image:"assets/team22/abhishekGope.png",
+      facebook:"",
+      insta:"",
+      linkdin:"https://www.linkedin.com/in/abhishek-gope-3136a2215/",
     },
 
     {
@@ -183,12 +183,12 @@ const Coordinator22 =[
   {
       
     id: 0,
-    name:"Abhishek Gope" ,
+    name:"Mantosh Kumar",
     designation:"COORDINATOR",
-    image:"assets/team22/abhishekGope.png",
-    facebook:"",
-    insta:"",
-    linkdin:"https://www.linkedin.com/in/abhishek-gope-3136a2215/",
+    image:"assets/team22/kumarMantosh.png",
+    facebook:"https://www.facebook.com/profile.php?id=100009327666742&mibextid=ZbWKwL",
+    insta:"https://www.instagram.com/man20sh/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D",
+    linkdin:"https://www.linkedin.com/in/mantosh-kumar-29233b152/",
   },
   {
     id: 1,
