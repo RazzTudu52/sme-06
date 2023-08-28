@@ -36,8 +36,10 @@ const Navigation = () => {
                 <nav>
                     <div className="nav-img">
                         <picture>
-                            <img src='/assets/bitlogo.png' alt="Logo" className="bitlogo" />
-                            <img src='/assets/Smelogo.png' alt="smelogo" className="smelogo"/>
+                        <a href="https://smebitsindri.live/" target="_blank" rel="noopener noreferrer">
+                        <img src='/assets/bitlogo.png' alt="Logo" className="bitlogo" /></a>
+                        <a href="https://smebitsindri.live/" target="_blank" rel="noopener noreferrer">
+                        <img src='/assets/Smelogo.png' alt="smelogo" className="smelogo"/></a> 
                         </picture>
                     </div>
 
