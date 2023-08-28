@@ -32,7 +32,7 @@ const Batch22_23  =[
 
     {
       id: 3,
-      name:"Mukund hamirwasia" ,
+      name:"Mukund Hamirwasia" ,
       designation:"Secretary",
       image:"assets/team22/mukund.png",
       facebook:"https://www.facebook.com/ritik.roshan.1806",
